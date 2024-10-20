@@ -20,10 +20,10 @@
         <nav class="nav">
             <img src="./images/logo_coffeeshop_dark.svg" alt="Coffee Shop Logo" class="nav__logo" />
             <ul class="nav__links">
-                <li><a href="" class="nav links">Recipes</a></li>
-                <li><a href="" class="nav links">Book a Table</a></li>
-                <li><a href="" class="nav links">Menu</a></li>
-                <li><a href="" class="nav links">Contacts</a></li>
+                <li><a href="" class="nav__link">Recipes</a></li>
+                <li><a href="" class="nav__link">Book a Table</a></li>
+                <li><a href="" class="nav__link">Menu</a></li>
+                <li><a href="" class="nav__link">Contacts</a></li>
             </ul>
         </nav>
         <h1 class="header__title">
@@ -59,33 +59,34 @@
                 </ul>
             </div>
         </section>
-        <h2 class="reservation__title">Book a Table></h2>
-        <form class="reservation__form">
-            <fieldset class="form__fieldset">  
-                <label for="name-input" class="form__label">
-                    Name *
-                    <input required type="text" class="form__input" id="name-input" placeholder="name surname" />
+        <section class="reservation">
+            <h2 class="reservation__title">Book a Table</h2>
+            <form class="reservation__form">
+                <fieldset class="reservation__fieldset">  
+                    <label for="name-input" class="reservation__label">
+                        Name *
+                        <input required type="text" class="reservation__input" id="name-input" placeholder="name surname" />
+                    </label>
+                    <label for="guests-input" class="reservation__label">
+                        Number of guests *
+                        <input required type="number" class="reservation__input" id="guests-input" min="1" max="8" placeholder="1-8"/> 
+                    </label>
+                    <label for="datetime-input" class="reservation__label">
+                        Date & Time *
+                        <input required type="datetime-local" class="reservation__input" id="datetime-input"/>
+                    </label>
+                    <label for="email-input" class="reservation__label">
+                        Your Email *
+                        <input required type="email" class="reservation__input" id="email-input" placeholder="email@email.com"/>
+                    </label>
+                </fieldset>
+                <button class="reservation__button">Book a Table</button>
+                <label for="terms-checkbox" class="reservation__label reservation__label_type_checkbox">
+                    <input class="reservation__checkbox" type="checkbox" id="terms-checkbox" required />
+                    I agree with the terms of use
                 </label>
-                <label for="guests-input" class="form__label">
-                    Number of guests *
-                    <input required type="number" class="form__input" id="guests-input" min="1" max="8" placeholder="1-8"/> 
-                </label>
-                <label for="datetime-input" class="form__label">
-                    Date & Time *
-                    <input required type="datetime-local" class="form__input" id="datetime-input"/>
-                </label>
-                <label for="email-input" class="form__label">
-                    Your Email *
-                    <input required type="email" class="form__input" id="email-input" placeholder="email@email.com"/>
-                </label>
-            </fieldset>
-            <button class="form__button">Book a Table</button>
-            <label for="terms-checkbox" class="form__label form__label_type_checkbox">
-                <input class="form__checkbox" type="checkbox" id="terms-checkbox" required />
-                I agree with the terms of use
-            </label>
-        </form>
-        <section class="reservation"></section>
+            </form>
+        </section>
         <section class="menu"></section>
         <section class="about"></section>
     </main>
