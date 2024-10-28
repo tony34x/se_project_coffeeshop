@@ -18,7 +18,7 @@ align-items: center;
 font-family: "Inter";
 font-size: 16px;
 line-height: 20px
-
+transition: opacity 70%;
 }
 
 
