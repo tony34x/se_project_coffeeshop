@@ -1,0 +1,41 @@
+.footer {
+background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+color: #fff;
+font-family: "Inter",arial,sans-serif;
+padding: 60px 80px;
+}
+
+.footer__content {
+display: flex;
+}
+
+.footer__social-link{
+color: white;
+text-decoration: none;
+}
+
+.footr__list {
+
+}
+
+.footer__logo {
+width: 105px;
+height: 35px;
+}
+
+.footer__column-heading {
+    margin: 0;
+}
+
+
+.footer__list {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+
+.footer__copyright {
+margin: 0;
+}
+
