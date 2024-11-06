@@ -3,6 +3,12 @@
  display: flex;
  flex-direction: column;
  align-items: center;
+ background-color: #fff;
+ background-image: url(/images/background_menu.svg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ 
 }
 
 .menu__title {

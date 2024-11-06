@@ -15,10 +15,10 @@ color: white;
 text-decoration: none;
 display: flex;
 align-items: center;
-font-family: "Inter";
+font-family: "Inter" Arial, sans-serif;
 font-size: 16px;
 line-height: 20px
-transition: opacity 70%;
+transition opacity 70%;
 }
 
 
@@ -58,3 +58,6 @@ margin-right: 10px;
 margin: 100px 0 0;
 }
 
+.footer__column {
+
+}

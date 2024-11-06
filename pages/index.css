@@ -48,12 +48,13 @@
     line-height: 72px;
     letter-spacing: -0.6px;
     max-width: 729px;
-    color: #000; /* Heading text color */
+    color:#000000;/* Heading text color */
+    z-index: 1;
 }
 
 .header__paragraph {
     margin: 0;
-    color: #000; /* Paragraph text color */
+    color: #6F6F6F; /* Paragraph text color */
 }
 
 .header__span-accent {
@@ -132,7 +133,7 @@
     font-family: 'Noto Serif', 'Times New Roman', serif;
     font-size: 20px;
     line-height: 30px;
-    color: #000; /* Subtitle text color */
+    color: #fff
 }
 
 .recipes__title {
@@ -142,7 +143,7 @@
     font-weight: 500;
     font-size: 44px;
     line-height: 52px;
-    color: #000; /* Title text color */
+    color: #fff
 }
 
 .recipes__video-caption {
@@ -209,6 +210,10 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px 
+}
+
+reservation__fieldset  {
+    
 }
 
 .form {
