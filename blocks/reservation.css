@@ -18,3 +18,36 @@
     padding: 20px;
     border-radius: 8px;
 }
+
+
+.reservation__input {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.reservation__label {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px
+}
+
+.reservation__checkbox {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px
+}
+
+.reservation__button {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px 
+}
