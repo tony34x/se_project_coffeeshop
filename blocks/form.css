@@ -30,7 +30,7 @@
     border: none;
     padding: 20px 0;
     margin-bottom: 32px;
-    background-color: #000; /* Button background color */
+    background-color: #1878DC; /* Button background color */
     color: #fff; /* Button text color */
     font-family: 'Inter', Arial, sans-serif;
     font-weight: 500;
@@ -59,3 +59,45 @@
     justify-content: center;
     color: #000; /* Checkbox label text color */
 }
+
+
+.reservation__input {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.reservation__label {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.reservation__checkbox {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.reservation__button {
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+    color: #3f96f3;
+}
+
+.reservation__label_type_checkbox (
+
+)
