@@ -20,6 +20,7 @@
 
 .about__content {
   max-width: 660px;
+  margin-top: 19px;
 }
 
 .about__circle {
@@ -39,7 +40,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  margin: 0;
+  margin: 0 20px;
 }
 
 .about__circle_animation_blurred {
