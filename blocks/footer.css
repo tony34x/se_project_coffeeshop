@@ -18,11 +18,12 @@
   font-family: "Inter" Arial, sans-serif;
   font-size: 16px;
   line-height: 20px transition opacity 70%;
+ 
 }
 
 .footer__logo {
   width: 105px;
-  height: 35px;
+  height: 39px;
 }
 
 .footer__column-heading {
@@ -49,5 +50,5 @@
 }
 
 .footer__copyright {
-  margin: 100px 0 0;
+  margin: 108px 0 0;
 }
