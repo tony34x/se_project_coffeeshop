@@ -33,12 +33,16 @@
 
 .header__paragraph {
   margin: 0;
-  color: #000; /* Paragraph text color */
+  color: #838383; /* Paragraph text color */
+  font-weight: normal;
 }
 
 .header__span-accent {
-  color: #3f96f3;
+  color: #2f80ed;
   display: block;
+  font-style: italic;
+  font-weight: normal;
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .header__description {
