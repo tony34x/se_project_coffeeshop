@@ -34,7 +34,12 @@
 .header__paragraph {
   margin: 0;
   color: #838383; /* Paragraph text color */
-  font-weight: normal;
+  font-weight: 500;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+
 }
 
 .header__span-accent {

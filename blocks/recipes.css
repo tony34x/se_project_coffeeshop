@@ -13,6 +13,8 @@
   gap: 40px;
   margin: 0;
   border: none;
+  padding-left: 0;
+  list-style: none;
 }
 
 .recipes__subtitle {
