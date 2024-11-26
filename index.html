@@ -21,8 +21,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-
-    </style>
   </head>
   <body>
     <div class="page">
@@ -82,33 +80,34 @@
             Check out some recipes we collected for your home-brewing
             convenience:
           </p>
-            <ul class="recipes__videos">
-              <li>
-                <iframe
-                  class="recipes__videos"
-                  width="480"
-                  height="273"
-                  src="https://www.youtube.com/embed/st571DYYTR8?si=Pm5kc0AmyGCPvaDf"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe> <p class="recipes__video-caption" <span>Aeropress recipe</span> <span>~5 min</span></p>
-                
-              </li>
-              <li>
-                <iframe
-                  class="recipes__videos"
-                  width="480"
-                  height="273"
-                  src="https://www.youtube.com/embed/j6VlT_jUVPc?si=SZGwbe-xRe-7M_t1"
-                  title="YouTube video player"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe> <p class="recipes__video-caption" <span>French press recipe</span>  <span>~15 min</span></p>
-              </li>
-            </ul>
+          <ul class="recipes__videos">
+            <li>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=Pm5kc0AmyGCPvaDf"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span> <span>~5 min</span>
+              </p>
+            </li>
+            <li>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=SZGwbe-xRe-7M_t1"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span> <span>~15 min</span>
+              </p>
+            </li>
+          </ul>
         </section>
         <section class="reservation">
           <h2 class="reservation__title">Book a Table</h2>
@@ -124,7 +123,7 @@
                   placeholder="name surname"
                 />
               </label>
-              <label for="guests-input" class="form__label ">
+              <label for="guests-input" class="form__label">
                 Number of guests *
                 <input
                   required
@@ -136,7 +135,7 @@
                   placeholder="1-8"
                 />
               </label>
-              <label for="datetime-input" class="form__label ">
+              <label for="datetime-input" class="form__label">
                 Date & Time *
                 <input
                   required
@@ -145,7 +144,7 @@
                   id="datetime-input"
                 />
               </label>
-              <label for="email-input" class="__label ">
+              <label for="email-input" class="form__label">
                 Your Email *
                 <input
                   required
