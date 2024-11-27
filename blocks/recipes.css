@@ -44,11 +44,13 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  margin: 24px 0;
+  margin-top: 24px;
+  margin-bottom: 0px;
 }
 
 .recipes__iframe {
   width: 480px;
   height: 273px;
+  border: none;
 
 }
